@@ -368,6 +368,8 @@ class EdgeSearch(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
+    # didn't use at this test
+
 
 if __name__ == "__main__":
     unittest.main()
