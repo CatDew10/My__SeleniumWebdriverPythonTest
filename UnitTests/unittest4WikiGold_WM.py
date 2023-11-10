@@ -360,7 +360,7 @@ class EdgeSearch(unittest.TestCase):
 
         assert "Gold_nugget_(Australia)_4_(16848647509).jpg (3531×2278)" in driver.title
         print("Page has", driver.title + " as Page title")
-        print("Test for Chrome is Done! Gold forever!")
+        print("Test for Chrome is Done! Gold forever!!!")
         driver.get_screenshot_as_file('gold1.png')
         # driver.save_screenshot('./UnitTests/gold1.png')
 
