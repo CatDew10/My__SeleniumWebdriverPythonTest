@@ -4,7 +4,7 @@ import time
 
 # add the next 3 rows to a script for headless start option
 options = webdriver.ChromeOptions()
-options.headless = True
+options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 driver.get("https://qasvus.wordpress.com/")
