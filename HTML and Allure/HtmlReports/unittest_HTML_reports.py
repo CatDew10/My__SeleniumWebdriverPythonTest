@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# //commit
 
 class ChromeSearchTest(unittest.TestCase):
 
@@ -22,7 +23,7 @@ class ChromeSearchTest(unittest.TestCase):
         driver = self.driver
         driver.get("http://www.google.com")
 
-        wait = WebDriverWait(driver, 5)
+        wait = WebDriverWait(driver, 6)
         wait.until(EC.visibility_of_element_located((By.XPATH, "//*[@name='q']")))
         time.sleep(1)  # simulate long-running test
 
